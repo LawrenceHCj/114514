@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lawrencehcj/hcj_ws/install/turtlesim/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/lawrencehcj/hcj_ws/src/learning_tf2_cpp/include/**",
+        "/home/lawrencehcj/hcj_ws/src/my_package/include/**",
+        "/home/lawrencehcj/hcj_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
