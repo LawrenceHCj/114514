@@ -1,0 +1,3 @@
+/home/lawrencehcj/cvcolor/CMakeFiles/cv-color.dir
+/home/lawrencehcj/cvcolor/CMakeFiles/edit_cache.dir
+/home/lawrencehcj/cvcolor/CMakeFiles/rebuild_cache.dir
