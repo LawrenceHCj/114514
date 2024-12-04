@@ -1,0 +1,4 @@
+/home/lawrencehcj/Desktop/transform/log_transform/CMakeFiles/run_python_script.dir
+/home/lawrencehcj/Desktop/transform/log_transform/CMakeFiles/echo_message.dir
+/home/lawrencehcj/Desktop/transform/log_transform/CMakeFiles/edit_cache.dir
+/home/lawrencehcj/Desktop/transform/log_transform/CMakeFiles/rebuild_cache.dir
