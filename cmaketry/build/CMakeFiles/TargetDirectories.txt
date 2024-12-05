@@ -1,0 +1,3 @@
+/home/lawrencehcj/cmaketry/build/CMakeFiles/a.out.dir
+/home/lawrencehcj/cmaketry/build/CMakeFiles/edit_cache.dir
+/home/lawrencehcj/cmaketry/build/CMakeFiles/rebuild_cache.dir
