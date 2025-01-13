@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+bda43b5033bc16a8f4854ae24b5b6b3e CMakeFiles/publisher_uninstall

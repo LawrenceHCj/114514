@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (receiver) JobQueued: {'identifier': 'receiver', 'dependencies': OrderedDict()}
+[0.000974] (receiver) JobStarted: {'identifier': 'receiver'}
+[0.036413] (receiver) JobProgress: {'identifier': 'receiver', 'progress': 'cmake'}
+[0.039065] (receiver) Command: {'cmd': ['/usr/bin/cmake', '/home/lawrencehcj/calculator/src/receiver', '-DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/receiver/install/receiver'], 'cwd': '/home/lawrencehcj/calculator/src/receiver/build/receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57e58d5d_9285_4838_9257_755954fc3420'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/receiver/build/receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[0.098470] (-) TimerEvent: {}
+[0.201197] (-) TimerEvent: {}
+[0.304101] (-) TimerEvent: {}
+[0.339464] (receiver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.405838] (-) TimerEvent: {}
+[0.507371] (-) TimerEvent: {}
+[0.581071] (receiver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.605820] (receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.607460] (-) TimerEvent: {}
+[0.708182] (-) TimerEvent: {}
+[0.812484] (-) TimerEvent: {}
+[0.846978] (receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.866047] (receiver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.866471] (receiver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.868233] (receiver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.879299] (receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.912956] (-) TimerEvent: {}
+[1.014225] (-) TimerEvent: {}
+[1.116918] (-) TimerEvent: {}
+[1.202788] (receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.217221] (-) TimerEvent: {}
+[1.224934] (receiver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.226870] (receiver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.227208] (receiver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.235802] (receiver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.317951] (-) TimerEvent: {}
+[1.418969] (-) TimerEvent: {}
+[1.521325] (-) TimerEvent: {}
+[1.623849] (-) TimerEvent: {}
+[1.667364] (receiver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.727116] (-) TimerEvent: {}
+[1.829841] (-) TimerEvent: {}
+[1.910523] (receiver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.931855] (-) TimerEvent: {}
+[2.007833] (receiver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.020882] (receiver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.032017] (-) TimerEvent: {}
+[2.037894] (receiver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.079510] (receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.113173] (receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.133843] (-) TimerEvent: {}
+[2.214958] (receiver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.219644] (receiver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.234023] (-) TimerEvent: {}
+[2.336711] (-) TimerEvent: {}
+[2.438927] (-) TimerEvent: {}
+[2.494836] (receiver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.539947] (-) TimerEvent: {}
+[2.563057] (receiver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.640148] (-) TimerEvent: {}
+[2.712007] (receiver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.740322] (-) TimerEvent: {}
+[2.747966] (receiver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.840526] (-) TimerEvent: {}
+[2.944322] (-) TimerEvent: {}
+[3.047868] (-) TimerEvent: {}
+[3.049977] (receiver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.050341] (receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.148894] (-) TimerEvent: {}
+[3.250794] (-) TimerEvent: {}
+[3.335811] (receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.342142] (receiver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.350867] (-) TimerEvent: {}
+[3.452993] (-) TimerEvent: {}
+[3.560134] (-) TimerEvent: {}
+[3.662854] (-) TimerEvent: {}
+[3.677779] (receiver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.707094] (receiver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.714889] (receiver) StdoutLine: {'line': b'-- Build files have been written to: /home/lawrencehcj/calculator/src/receiver/build/receiver\n'}
+[3.756029] (receiver) CommandEnded: {'returncode': 0}
+[3.761080] (receiver) JobProgress: {'identifier': 'receiver', 'progress': 'build'}
+[3.761181] (receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lawrencehcj/calculator/src/receiver/build/receiver', '--', '-j2', '-l2'], 'cwd': '/home/lawrencehcj/calculator/src/receiver/build/receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57e58d5d_9285_4838_9257_755954fc3420'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/receiver/build/receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[3.763818] (-) TimerEvent: {}
+[3.869952] (-) TimerEvent: {}
+[3.963767] (receiver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/receiver_node.dir/src/receiver.cpp.o\x1b[0m\n'}
+[3.972989] (-) TimerEvent: {}
+[4.073898] (-) TimerEvent: {}
+[4.176146] (-) TimerEvent: {}
+[4.280875] (-) TimerEvent: {}
+[4.383841] (-) TimerEvent: {}
+[4.485018] (-) TimerEvent: {}
+[4.586856] (-) TimerEvent: {}
+[4.690172] (-) TimerEvent: {}
+[4.794945] (-) TimerEvent: {}
+[4.897401] (-) TimerEvent: {}
+[5.000296] (-) TimerEvent: {}
+[5.102845] (-) TimerEvent: {}
+[5.207037] (-) TimerEvent: {}
+[5.309868] (-) TimerEvent: {}
+[5.413183] (-) TimerEvent: {}
+[5.517518] (-) TimerEvent: {}
+[5.621112] (-) TimerEvent: {}
+[5.725862] (-) TimerEvent: {}
+[5.828862] (-) TimerEvent: {}
+[5.931779] (-) TimerEvent: {}
+[6.032403] (-) TimerEvent: {}
+[6.134875] (-) TimerEvent: {}
+[6.236870] (-) TimerEvent: {}
+[6.340178] (-) TimerEvent: {}
+[6.443456] (-) TimerEvent: {}
+[6.546277] (-) TimerEvent: {}
+[6.651335] (-) TimerEvent: {}
+[6.753888] (-) TimerEvent: {}
+[6.854759] (-) TimerEvent: {}
+[6.955912] (-) TimerEvent: {}
+[7.059087] (-) TimerEvent: {}
+[7.160123] (-) TimerEvent: {}
+[7.262283] (-) TimerEvent: {}
+[7.363999] (-) TimerEvent: {}
+[7.465331] (-) TimerEvent: {}
+[7.566567] (-) TimerEvent: {}
+[7.667796] (-) TimerEvent: {}
+[7.769097] (-) TimerEvent: {}
+[7.870302] (-) TimerEvent: {}
+[7.971969] (-) TimerEvent: {}
+[8.073539] (-) TimerEvent: {}
+[8.174873] (-) TimerEvent: {}
+[8.276155] (-) TimerEvent: {}
+[8.377702] (-) TimerEvent: {}
+[8.478457] (-) TimerEvent: {}
+[8.579229] (-) TimerEvent: {}
+[8.680918] (-) TimerEvent: {}
+[8.782581] (-) TimerEvent: {}
+[8.883944] (-) TimerEvent: {}
+[8.985109] (-) TimerEvent: {}
+[9.086316] (-) TimerEvent: {}
+[9.187194] (-) TimerEvent: {}
+[9.288207] (-) TimerEvent: {}
+[9.389094] (-) TimerEvent: {}
+[9.490207] (-) TimerEvent: {}
+[9.591051] (-) TimerEvent: {}
+[9.692255] (-) TimerEvent: {}
+[9.793171] (-) TimerEvent: {}
+[9.896294] (-) TimerEvent: {}
+[9.997361] (-) TimerEvent: {}
+[10.099588] (-) TimerEvent: {}
+[10.200454] (-) TimerEvent: {}
+[10.302682] (-) TimerEvent: {}
+[10.405776] (-) TimerEvent: {}
+[10.506501] (-) TimerEvent: {}
+[10.607833] (-) TimerEvent: {}
+[11.339620] (-) TimerEvent: {}
+[11.443960] (-) TimerEvent: {}
+[11.544811] (-) TimerEvent: {}
+[11.647167] (-) TimerEvent: {}
+[11.749037] (-) TimerEvent: {}
+[11.849889] (-) TimerEvent: {}
+[11.950848] (-) TimerEvent: {}
+[12.051707] (-) TimerEvent: {}
+[12.152459] (-) TimerEvent: {}
+[12.253824] (-) TimerEvent: {}
+[12.355907] (-) TimerEvent: {}
+[12.456772] (-) TimerEvent: {}
+[12.557847] (-) TimerEvent: {}
+[12.659235] (-) TimerEvent: {}
+[12.763044] (-) TimerEvent: {}
+[12.864873] (-) TimerEvent: {}
+[12.966030] (-) TimerEvent: {}
+[13.067214] (-) TimerEvent: {}
+[13.168500] (-) TimerEvent: {}
+[13.270278] (-) TimerEvent: {}
+[13.371591] (-) TimerEvent: {}
+[13.473822] (-) TimerEvent: {}
+[13.575307] (-) TimerEvent: {}
+[13.676761] (-) TimerEvent: {}
+[13.780838] (-) TimerEvent: {}
+[13.883939] (-) TimerEvent: {}
+[13.988847] (-) TimerEvent: {}
+[14.090826] (-) TimerEvent: {}
+[14.193880] (-) TimerEvent: {}
+[14.297838] (-) TimerEvent: {}
+[14.399856] (-) TimerEvent: {}
+[14.502103] (-) TimerEvent: {}
+[14.606445] (-) TimerEvent: {}
+[14.708156] (-) TimerEvent: {}
+[14.809319] (-) TimerEvent: {}
+[14.910567] (-) TimerEvent: {}
+[15.011473] (-) TimerEvent: {}
+[15.112381] (-) TimerEvent: {}
+[15.213588] (-) TimerEvent: {}
+[15.314505] (-) TimerEvent: {}
+[15.415453] (-) TimerEvent: {}
+[15.516789] (-) TimerEvent: {}
+[15.617696] (-) TimerEvent: {}
+[15.718534] (-) TimerEvent: {}
+[15.819598] (-) TimerEvent: {}
+[15.920513] (-) TimerEvent: {}
+[16.021359] (-) TimerEvent: {}
+[16.122363] (-) TimerEvent: {}
+[16.223285] (-) TimerEvent: {}
+[16.324273] (-) TimerEvent: {}
+[16.425168] (-) TimerEvent: {}
+[16.526052] (-) TimerEvent: {}
+[16.626878] (-) TimerEvent: {}
+[16.750320] (-) TimerEvent: {}
+[16.855109] (-) TimerEvent: {}
+[16.957255] (-) TimerEvent: {}
+[17.058407] (-) TimerEvent: {}
+[17.159636] (-) TimerEvent: {}
+[17.260490] (-) TimerEvent: {}
+[17.361826] (-) TimerEvent: {}
+[17.462917] (-) TimerEvent: {}
+[17.564860] (-) TimerEvent: {}
+[17.667342] (-) TimerEvent: {}
+[17.768296] (-) TimerEvent: {}
+[17.869311] (-) TimerEvent: {}
+[17.970400] (-) TimerEvent: {}
+[18.071528] (-) TimerEvent: {}
+[18.172861] (-) TimerEvent: {}
+[18.274144] (-) TimerEvent: {}
+[18.375195] (-) TimerEvent: {}
+[18.476309] (-) TimerEvent: {}
+[18.577723] (-) TimerEvent: {}
+[18.678979] (-) TimerEvent: {}
+[18.779848] (-) TimerEvent: {}
+[18.880839] (-) TimerEvent: {}
+[18.981696] (-) TimerEvent: {}
+[19.082510] (-) TimerEvent: {}
+[19.183912] (-) TimerEvent: {}
+[19.287703] (-) TimerEvent: {}
+[19.388665] (-) TimerEvent: {}
+[19.489362] (-) TimerEvent: {}
+[19.590294] (-) TimerEvent: {}
+[19.691363] (-) TimerEvent: {}
+[19.792879] (-) TimerEvent: {}
+[19.893734] (-) TimerEvent: {}
+[19.994666] (-) TimerEvent: {}
+[20.095455] (-) TimerEvent: {}
+[20.196424] (-) TimerEvent: {}
+[20.297315] (-) TimerEvent: {}
+[20.398461] (-) TimerEvent: {}
+[20.499361] (-) TimerEvent: {}
+[20.600444] (-) TimerEvent: {}
+[20.703823] (-) TimerEvent: {}
+[20.804708] (-) TimerEvent: {}
+[20.905762] (-) TimerEvent: {}
+[21.006965] (-) TimerEvent: {}
+[21.108090] (-) TimerEvent: {}
+[21.209407] (-) TimerEvent: {}
+[21.310338] (-) TimerEvent: {}
+[21.411461] (-) TimerEvent: {}
+[21.512703] (-) TimerEvent: {}
+[21.613915] (-) TimerEvent: {}
+[21.715073] (-) TimerEvent: {}
+[21.818479] (-) TimerEvent: {}
+[21.919877] (-) TimerEvent: {}
+[22.021044] (-) TimerEvent: {}
+[22.121770] (-) TimerEvent: {}
+[22.222821] (-) TimerEvent: {}
+[22.323816] (-) TimerEvent: {}
+[22.425845] (-) TimerEvent: {}
+[22.526884] (-) TimerEvent: {}
+[22.627816] (-) TimerEvent: {}
+[22.729027] (-) TimerEvent: {}
+[22.829793] (-) TimerEvent: {}
+[22.930753] (-) TimerEvent: {}
+[23.031995] (-) TimerEvent: {}
+[23.133114] (-) TimerEvent: {}
+[23.235088] (-) TimerEvent: {}
+[23.336049] (-) TimerEvent: {}
+[23.437282] (-) TimerEvent: {}
+[23.538882] (-) TimerEvent: {}
+[23.639877] (-) TimerEvent: {}
+[23.741055] (-) TimerEvent: {}
+[23.845781] (-) TimerEvent: {}
+[23.947801] (-) TimerEvent: {}
+[24.052434] (-) TimerEvent: {}
+[24.155467] (-) TimerEvent: {}
+[24.256919] (-) TimerEvent: {}
+[24.358049] (-) TimerEvent: {}
+[24.459197] (-) TimerEvent: {}
+[24.560048] (-) TimerEvent: {}
+[24.661410] (-) TimerEvent: {}
+[24.762663] (-) TimerEvent: {}
+[24.863360] (-) TimerEvent: {}
+[24.964853] (-) TimerEvent: {}
+[25.066053] (-) TimerEvent: {}
+[25.167625] (-) TimerEvent: {}
+[25.268502] (-) TimerEvent: {}
+[25.369328] (-) TimerEvent: {}
+[25.470865] (-) TimerEvent: {}
+[25.571717] (-) TimerEvent: {}
+[25.672526] (-) TimerEvent: {}
+[25.773745] (-) TimerEvent: {}
+[25.874825] (-) TimerEvent: {}
+[25.975876] (-) TimerEvent: {}
+[26.077816] (-) TimerEvent: {}
+[26.178951] (-) TimerEvent: {}
+[26.280320] (-) TimerEvent: {}
+[26.381385] (-) TimerEvent: {}
+[26.482534] (-) TimerEvent: {}
+[26.584539] (-) TimerEvent: {}
+[26.685855] (-) TimerEvent: {}
+[26.786894] (-) TimerEvent: {}
+[26.887778] (-) TimerEvent: {}
+[26.988452] (-) TimerEvent: {}
+[27.089323] (-) TimerEvent: {}
+[27.190193] (-) TimerEvent: {}
+[27.291848] (-) TimerEvent: {}
+[27.400307] (-) TimerEvent: {}
+[27.505852] (-) TimerEvent: {}
+[27.607827] (-) TimerEvent: {}
+[27.711120] (-) TimerEvent: {}
+[27.814153] (-) TimerEvent: {}
+[27.915263] (-) TimerEvent: {}
+[28.016760] (-) TimerEvent: {}
+[28.117904] (-) TimerEvent: {}
+[28.219152] (-) TimerEvent: {}
+[28.320142] (-) TimerEvent: {}
+[28.421167] (-) TimerEvent: {}
+[28.523552] (-) TimerEvent: {}
+[28.624441] (-) TimerEvent: {}
+[28.725848] (-) TimerEvent: {}
+[28.827071] (-) TimerEvent: {}
+[28.928255] (-) TimerEvent: {}
+[29.029254] (-) TimerEvent: {}
+[29.130130] (-) TimerEvent: {}
+[29.231937] (-) TimerEvent: {}
+[29.332832] (-) TimerEvent: {}
+[29.433784] (-) TimerEvent: {}
+[29.534699] (-) TimerEvent: {}
+[29.635483] (-) TimerEvent: {}
+[29.736510] (-) TimerEvent: {}
+[29.838180] (-) TimerEvent: {}
+[29.939788] (-) TimerEvent: {}
+[30.040480] (-) TimerEvent: {}
+[30.141960] (-) TimerEvent: {}
+[30.243540] (-) TimerEvent: {}
+[30.345174] (-) TimerEvent: {}
+[30.447588] (-) TimerEvent: {}
+[30.550739] (-) TimerEvent: {}
+[30.652495] (-) TimerEvent: {}
+[30.753567] (-) TimerEvent: {}
+[30.854292] (-) TimerEvent: {}
+[30.955814] (-) TimerEvent: {}
+[31.056841] (-) TimerEvent: {}
+[31.159773] (-) TimerEvent: {}
+[31.260921] (-) TimerEvent: {}
+[31.361998] (-) TimerEvent: {}
+[31.463102] (-) TimerEvent: {}
+[31.564265] (-) TimerEvent: {}
+[31.666815] (-) TimerEvent: {}
+[31.767859] (-) TimerEvent: {}
+[31.868964] (-) TimerEvent: {}
+[31.970629] (-) TimerEvent: {}
+[32.072448] (-) TimerEvent: {}
+[32.175815] (-) TimerEvent: {}
+[32.276823] (-) TimerEvent: {}
+[32.378930] (-) TimerEvent: {}
+[32.480050] (-) TimerEvent: {}
+[32.583461] (-) TimerEvent: {}
+[32.684828] (-) TimerEvent: {}
+[32.788827] (-) TimerEvent: {}
+[32.892794] (-) TimerEvent: {}
+[32.995233] (-) TimerEvent: {}
+[33.095870] (-) TimerEvent: {}
+[33.197127] (-) TimerEvent: {}
+[33.298885] (-) TimerEvent: {}
+[33.401281] (-) TimerEvent: {}
+[33.506024] (-) TimerEvent: {}
+[33.608844] (-) TimerEvent: {}
+[33.710866] (-) TimerEvent: {}
+[33.812816] (-) TimerEvent: {}
+[33.917278] (-) TimerEvent: {}
+[34.021972] (-) TimerEvent: {}
+[34.126852] (-) TimerEvent: {}
+[34.227743] (-) TimerEvent: {}
+[34.331845] (-) TimerEvent: {}
+[34.436251] (-) TimerEvent: {}
+[34.538090] (-) TimerEvent: {}
+[34.639203] (-) TimerEvent: {}
+[34.740258] (-) TimerEvent: {}
+[34.850435] (-) TimerEvent: {}
+[34.951919] (-) TimerEvent: {}
+[35.058024] (-) TimerEvent: {}
+[35.158574] (-) TimerEvent: {}
+[35.259411] (-) TimerEvent: {}
+[35.360642] (-) TimerEvent: {}
+[35.461496] (-) TimerEvent: {}
+[35.563588] (-) TimerEvent: {}
+[35.665063] (-) TimerEvent: {}
+[35.766168] (-) TimerEvent: {}
+[35.868758] (-) TimerEvent: {}
+[35.969899] (-) TimerEvent: {}
+[36.071237] (-) TimerEvent: {}
+[36.172900] (-) TimerEvent: {}
+[36.253470] (receiver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable receiver_node\x1b[0m\n'}
+[36.274928] (-) TimerEvent: {}
+[36.376792] (-) TimerEvent: {}
+[36.480054] (-) TimerEvent: {}
+[36.581252] (-) TimerEvent: {}
+[36.684827] (-) TimerEvent: {}
+[36.788080] (-) TimerEvent: {}
+[36.888742] (-) TimerEvent: {}
+[36.993118] (-) TimerEvent: {}
+[37.094900] (-) TimerEvent: {}
+[37.198217] (-) TimerEvent: {}
+[37.299535] (-) TimerEvent: {}
+[37.402387] (-) TimerEvent: {}
+[37.506080] (-) TimerEvent: {}
+[37.606841] (-) TimerEvent: {}
+[37.707685] (-) TimerEvent: {}
+[37.808391] (-) TimerEvent: {}
+[37.909947] (-) TimerEvent: {}
+[38.011867] (-) TimerEvent: {}
+[38.016831] (receiver) StdoutLine: {'line': b'[100%] Built target receiver_node\n'}
+[38.057159] (receiver) CommandEnded: {'returncode': 0}
+[38.058689] (receiver) JobProgress: {'identifier': 'receiver', 'progress': 'install'}
+[38.090477] (receiver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lawrencehcj/calculator/src/receiver/build/receiver'], 'cwd': '/home/lawrencehcj/calculator/src/receiver/build/receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57e58d5d_9285_4838_9257_755954fc3420'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/receiver/build/receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[38.111956] (-) TimerEvent: {}
+[38.118825] (receiver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.120331] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/lib/receiver/receiver_node\n'}
+[38.136419] (receiver) StdoutLine: {'line': b'-- Set runtime path of "/home/lawrencehcj/calculator/src/receiver/install/receiver/lib/receiver/receiver_node" to ""\n'}
+[38.136962] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/ament_index/resource_index/package_run_dependencies/receiver\n'}
+[38.137603] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/ament_index/resource_index/parent_prefix_path/receiver\n'}
+[38.139785] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/environment/ament_prefix_path.sh\n'}
+[38.140048] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/environment/ament_prefix_path.dsv\n'}
+[38.140186] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/environment/path.sh\n'}
+[38.140330] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/environment/path.dsv\n'}
+[38.144169] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/local_setup.bash\n'}
+[38.144359] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/local_setup.sh\n'}
+[38.144476] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/local_setup.zsh\n'}
+[38.144591] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/local_setup.dsv\n'}
+[38.145740] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/package.dsv\n'}
+[38.145945] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/ament_index/resource_index/packages/receiver\n'}
+[38.146074] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/cmake/receiverConfig.cmake\n'}
+[38.146188] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/cmake/receiverConfig-version.cmake\n'}
+[38.146299] (receiver) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/receiver/install/receiver/share/receiver/package.xml\n'}
+[38.151771] (receiver) CommandEnded: {'returncode': 0}
+[38.200946] (receiver) JobEnded: {'identifier': 'receiver', 'rc': 0}
+[38.203958] (-) EventReactorShutdown: {}

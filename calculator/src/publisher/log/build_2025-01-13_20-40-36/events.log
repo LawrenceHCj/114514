@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (publisher) JobQueued: {'identifier': 'publisher', 'dependencies': OrderedDict()}
+[0.001568] (publisher) JobStarted: {'identifier': 'publisher'}
+[0.010403] (publisher) JobProgress: {'identifier': 'publisher', 'progress': 'cmake'}
+[0.011300] (publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/lawrencehcj/calculator/src/publisher', '-DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/publisher/install/publisher'], 'cwd': '/home/lawrencehcj/calculator/src/publisher/build/publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a482784_00b2_4cf8_bbad_a39b8a051262'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/publisher/build/publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[0.075223] (publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099634] (-) TimerEvent: {}
+[0.149538] (publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.153775] (publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199767] (-) TimerEvent: {}
+[0.232708] (publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.239752] (publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.240214] (publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.240761] (publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.244994] (publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.301740] (-) TimerEvent: {}
+[0.362182] (publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.374360] (publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.374759] (publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.374818] (publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.378251] (publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401840] (-) TimerEvent: {}
+[0.502273] (-) TimerEvent: {}
+[0.553269] (publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.603449] (-) TimerEvent: {}
+[0.628421] (publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.699559] (publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.703553] (-) TimerEvent: {}
+[0.706469] (publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.715302] (publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.723306] (publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.737979] (publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.784378] (publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.789381] (publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.803661] (-) TimerEvent: {}
+[0.895417] (publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.903792] (-) TimerEvent: {}
+[0.924903] (publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.955913] (publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.962632] (publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.003913] (-) TimerEvent: {}
+[1.100478] (publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.100685] (publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.103982] (-) TimerEvent: {}
+[1.206460] (-) TimerEvent: {}
+[1.308788] (-) TimerEvent: {}
+[1.376412] (publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.379495] (publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.408670] (-) TimerEvent: {}
+[1.509272] (-) TimerEvent: {}
+[1.611684] (-) TimerEvent: {}
+[1.714764] (-) TimerEvent: {}
+[1.774619] (publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.810426] (publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.816369] (-) TimerEvent: {}
+[1.825534] (publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/lawrencehcj/calculator/src/publisher/build/publisher\n'}
+[1.889952] (publisher) CommandEnded: {'returncode': 0}
+[1.896077] (publisher) JobProgress: {'identifier': 'publisher', 'progress': 'build'}
+[1.896260] (publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lawrencehcj/calculator/src/publisher/build/publisher', '--', '-j2', '-l2'], 'cwd': '/home/lawrencehcj/calculator/src/publisher/build/publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a482784_00b2_4cf8_bbad_a39b8a051262'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/publisher/build/publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[1.916564] (-) TimerEvent: {}
+[2.018383] (-) TimerEvent: {}
+[2.120783] (-) TimerEvent: {}
+[2.221764] (-) TimerEvent: {}
+[2.235882] (publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[2.324074] (-) TimerEvent: {}
+[2.426623] (-) TimerEvent: {}
+[2.529783] (-) TimerEvent: {}
+[2.634988] (-) TimerEvent: {}
+[2.738483] (-) TimerEvent: {}
+[2.842924] (-) TimerEvent: {}
+[2.950578] (-) TimerEvent: {}
+[3.057363] (-) TimerEvent: {}
+[3.161199] (-) TimerEvent: {}
+[3.265794] (-) TimerEvent: {}
+[3.368729] (-) TimerEvent: {}
+[3.471409] (-) TimerEvent: {}
+[3.572039] (-) TimerEvent: {}
+[3.675510] (-) TimerEvent: {}
+[3.779637] (-) TimerEvent: {}
+[3.886609] (-) TimerEvent: {}
+[3.989733] (-) TimerEvent: {}
+[4.093862] (-) TimerEvent: {}
+[4.195090] (-) TimerEvent: {}
+[4.300913] (-) TimerEvent: {}
+[4.401602] (-) TimerEvent: {}
+[4.503449] (-) TimerEvent: {}
+[4.604275] (-) TimerEvent: {}
+[4.708423] (-) TimerEvent: {}
+[4.812467] (-) TimerEvent: {}
+[4.913827] (-) TimerEvent: {}
+[5.015352] (-) TimerEvent: {}
+[5.118443] (-) TimerEvent: {}
+[5.220197] (-) TimerEvent: {}
+[5.321080] (-) TimerEvent: {}
+[5.424519] (-) TimerEvent: {}
+[5.526876] (-) TimerEvent: {}
+[5.629772] (-) TimerEvent: {}
+[5.730712] (-) TimerEvent: {}
+[5.831470] (-) TimerEvent: {}
+[5.932413] (-) TimerEvent: {}
+[6.033171] (-) TimerEvent: {}
+[6.134418] (-) TimerEvent: {}
+[6.235447] (-) TimerEvent: {}
+[6.339424] (-) TimerEvent: {}
+[6.447442] (-) TimerEvent: {}
+[6.548135] (-) TimerEvent: {}
+[6.653086] (-) TimerEvent: {}
+[6.754451] (-) TimerEvent: {}
+[6.858396] (-) TimerEvent: {}
+[6.964641] (-) TimerEvent: {}
+[7.065126] (-) TimerEvent: {}
+[7.169578] (-) TimerEvent: {}
+[7.273793] (-) TimerEvent: {}
+[7.377927] (-) TimerEvent: {}
+[7.479765] (-) TimerEvent: {}
+[7.582952] (-) TimerEvent: {}
+[7.686871] (-) TimerEvent: {}
+[7.789040] (-) TimerEvent: {}
+[7.895335] (-) TimerEvent: {}
+[7.997070] (-) TimerEvent: {}
+[8.101465] (-) TimerEvent: {}
+[8.205772] (-) TimerEvent: {}
+[8.306522] (-) TimerEvent: {}
+[8.412753] (-) TimerEvent: {}
+[8.513452] (-) TimerEvent: {}
+[8.614704] (-) TimerEvent: {}
+[8.717420] (-) TimerEvent: {}
+[8.818050] (-) TimerEvent: {}
+[8.918953] (-) TimerEvent: {}
+[9.020837] (-) TimerEvent: {}
+[9.121721] (-) TimerEvent: {}
+[9.223165] (-) TimerEvent: {}
+[9.324049] (-) TimerEvent: {}
+[9.424797] (-) TimerEvent: {}
+[9.525935] (-) TimerEvent: {}
+[9.627557] (-) TimerEvent: {}
+[9.728920] (-) TimerEvent: {}
+[9.829902] (-) TimerEvent: {}
+[9.930835] (-) TimerEvent: {}
+[10.031776] (-) TimerEvent: {}
+[10.132733] (-) TimerEvent: {}
+[10.233738] (-) TimerEvent: {}
+[10.334756] (-) TimerEvent: {}
+[10.435754] (-) TimerEvent: {}
+[10.536995] (-) TimerEvent: {}
+[10.638158] (-) TimerEvent: {}
+[10.739430] (-) TimerEvent: {}
+[10.840383] (-) TimerEvent: {}
+[10.942137] (-) TimerEvent: {}
+[11.043850] (-) TimerEvent: {}
+[11.145600] (-) TimerEvent: {}
+[11.246379] (-) TimerEvent: {}
+[11.347311] (-) TimerEvent: {}
+[11.448574] (-) TimerEvent: {}
+[11.549581] (-) TimerEvent: {}
+[11.650786] (-) TimerEvent: {}
+[11.751854] (-) TimerEvent: {}
+[11.853129] (-) TimerEvent: {}
+[11.954319] (-) TimerEvent: {}
+[12.055530] (-) TimerEvent: {}
+[12.156445] (-) TimerEvent: {}
+[12.257628] (-) TimerEvent: {}
+[12.358839] (-) TimerEvent: {}
+[12.460444] (-) TimerEvent: {}
+[12.563648] (-) TimerEvent: {}
+[12.671615] (-) TimerEvent: {}
+[12.772620] (-) TimerEvent: {}
+[12.874058] (-) TimerEvent: {}
+[12.975854] (-) TimerEvent: {}
+[13.078401] (-) TimerEvent: {}
+[13.179376] (-) TimerEvent: {}
+[13.280733] (-) TimerEvent: {}
+[13.381980] (-) TimerEvent: {}
+[13.482889] (-) TimerEvent: {}
+[13.584144] (-) TimerEvent: {}
+[13.684997] (-) TimerEvent: {}
+[13.785938] (-) TimerEvent: {}
+[13.887438] (-) TimerEvent: {}
+[13.989238] (-) TimerEvent: {}
+[14.090574] (-) TimerEvent: {}
+[14.191604] (-) TimerEvent: {}
+[14.292508] (-) TimerEvent: {}
+[14.393284] (-) TimerEvent: {}
+[14.494472] (-) TimerEvent: {}
+[14.595636] (-) TimerEvent: {}
+[14.696847] (-) TimerEvent: {}
+[14.797702] (-) TimerEvent: {}
+[14.899304] (-) TimerEvent: {}
+[15.000877] (-) TimerEvent: {}
+[15.102396] (-) TimerEvent: {}
+[15.203358] (-) TimerEvent: {}
+[15.304095] (-) TimerEvent: {}
+[15.407694] (-) TimerEvent: {}
+[15.509095] (-) TimerEvent: {}
+[15.610027] (-) TimerEvent: {}
+[15.711430] (-) TimerEvent: {}
+[15.812374] (-) TimerEvent: {}
+[15.850733] (publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[15.913468] (-) TimerEvent: {}
+[16.014115] (-) TimerEvent: {}
+[16.117435] (-) TimerEvent: {}
+[16.218151] (-) TimerEvent: {}
+[16.320477] (-) TimerEvent: {}
+[16.348887] (publisher) StdoutLine: {'line': b'[100%] Built target publisher_node\n'}
+[16.397520] (publisher) CommandEnded: {'returncode': 0}
+[16.400398] (publisher) JobProgress: {'identifier': 'publisher', 'progress': 'install'}
+[16.420583] (-) TimerEvent: {}
+[16.427049] (publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lawrencehcj/calculator/src/publisher/build/publisher'], 'cwd': '/home/lawrencehcj/calculator/src/publisher/build/publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.197.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lawrencehcj'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.197.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lawrencehcj'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://192.168.197.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lawrencehcj'), ('ALL_PROXY', 'socks://192.168.197.1:7890/'), ('http_proxy', 'http://192.168.197.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lawrencehcj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lawrencehcj-virtual-machine:@/tmp/.ICE-unix/1721,unix/lawrencehcj-virtual-machine:/tmp/.ICE-unix/1721'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.197.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a482784_00b2_4cf8_bbad_a39b8a051262'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lawrencehcj/calculator/src/publisher/build/publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('FTP_PROXY', 'http://192.168.197.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=548550a12182d7a0e9ed3f176784d041'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.197.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble')]), 'shell': False}
+[16.459875] (publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.461791] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/lib/publisher/publisher_node\n'}
+[16.466363] (publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/lawrencehcj/calculator/src/publisher/install/publisher/lib/publisher/publisher_node" to ""\n'}
+[16.466707] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/package_run_dependencies/publisher\n'}
+[16.466855] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/parent_prefix_path/publisher\n'}
+[16.467112] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/ament_prefix_path.sh\n'}
+[16.470913] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/ament_prefix_path.dsv\n'}
+[16.471206] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/path.sh\n'}
+[16.471490] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/path.dsv\n'}
+[16.471639] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.bash\n'}
+[16.471767] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.sh\n'}
+[16.471888] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.zsh\n'}
+[16.472030] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.dsv\n'}
+[16.472180] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/package.dsv\n'}
+[16.476487] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/packages/publisher\n'}
+[16.476901] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/cmake/publisherConfig.cmake\n'}
+[16.478665] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/cmake/publisherConfig-version.cmake\n'}
+[16.479135] (publisher) StdoutLine: {'line': b'-- Installing: /home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/package.xml\n'}
+[16.479574] (publisher) CommandEnded: {'returncode': 0}
+[16.521403] (-) TimerEvent: {}
+[16.534980] (publisher) JobEnded: {'identifier': 'publisher', 'rc': 0}
+[16.536731] (-) EventReactorShutdown: {}

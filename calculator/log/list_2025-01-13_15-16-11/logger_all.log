@@ -1,0 +1,66 @@
+[0.918s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/lawrencehcj/calculator']
+[0.919s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lawrencehcj/calculator'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74923fcb5600>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x74923fea9cc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x74923fea9cc0>>)
+[2.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.689s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lawrencehcj/calculator'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['ignore', 'ignore_ament_install']
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'ignore'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'ignore_ament_install'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['colcon_pkg']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'colcon_pkg'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['colcon_meta']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'colcon_meta'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['ros']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'ros'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['cmake', 'python']
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'cmake'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'python'
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extensions ['python_setup_py']
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator) by extension 'python_setup_py'
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/build) by extensions ['ignore', 'ignore_ament_install']
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/build) by extension 'ignore'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/build) ignored
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/install) by extensions ['ignore', 'ignore_ament_install']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/install) by extension 'ignore'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/install) ignored
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/log) by extensions ['ignore', 'ignore_ament_install']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/log) by extension 'ignore'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/log) ignored
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['ignore', 'ignore_ament_install']
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'ignore'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'ignore_ament_install'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['colcon_pkg']
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'colcon_pkg'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['colcon_meta']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'colcon_meta'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['ros']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'ros'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['cmake', 'python']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'cmake'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'python'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extensions ['python_setup_py']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src) by extension 'python_setup_py'
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extension 'ignore'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extension 'ignore_ament_install'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extensions ['colcon_pkg']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extension 'colcon_pkg'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extensions ['colcon_meta']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extension 'colcon_meta'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extensions ['ros']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/publisher) by extension 'ros'
+[2.880s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lawrencehcj/calculator/src/publisher' with type 'ros.ament_cmake' and name 'publisher'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extensions ['ignore', 'ignore_ament_install']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extension 'ignore'
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extension 'ignore_ament_install'
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extensions ['colcon_pkg']
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extension 'colcon_pkg'
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extensions ['colcon_meta']
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extension 'colcon_meta'
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extensions ['ros']
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lawrencehcj/calculator/src/receiver) by extension 'ros'
+[2.897s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lawrencehcj/calculator/src/receiver' with type 'ros.ament_cmake' and name 'receiver'
+[2.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

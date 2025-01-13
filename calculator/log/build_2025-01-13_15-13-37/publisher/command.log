@@ -1,0 +1,6 @@
+Invoking command in '/home/lawrencehcj/calculator/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/publisher -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/install/publisher
+Invoked command in '/home/lawrencehcj/calculator/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/publisher -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/install/publisher
+Invoking command in '/home/lawrencehcj/calculator/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/publisher -- -j2 -l2
+Invoked command in '/home/lawrencehcj/calculator/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/publisher -- -j2 -l2
+Invoking command in '/home/lawrencehcj/calculator/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/build/publisher
+Invoked command in '/home/lawrencehcj/calculator/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/build/publisher

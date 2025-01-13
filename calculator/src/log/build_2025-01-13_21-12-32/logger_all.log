@@ -1,0 +1,191 @@
+[0.324s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.324s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c78d8844cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c78d894df90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c78d894df90>>)
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.803s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lawrencehcj/calculator/src'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extension 'ignore'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extension 'ignore_ament_install'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extensions ['colcon_pkg']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extension 'colcon_pkg'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extensions ['colcon_meta']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extension 'colcon_meta'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(publisher) by extension 'ros'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'publisher' with type 'ros.ament_cmake' and name 'publisher'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(receiver) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package 'receiver' with type 'ros.ament_cmake' and name 'receiver'
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.942s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lawrencehcj/ros2_ws/install
+[0.950s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/humble
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_args' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_target' from command line to 'None'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.124s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.125s] DEBUG:colcon.colcon_core.verb:Building package 'publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lawrencehcj/calculator/src/build/publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lawrencehcj/calculator/src/install/publisher', 'merge_install': False, 'path': '/home/lawrencehcj/calculator/src/publisher', 'symlink_install': False, 'test_result_base': None}
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_args' from command line to 'None'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_target' from command line to 'None'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_clean_first' from command line to 'False'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'cmake_force_configure' from command line to 'False'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'ament_cmake_args' from command line to 'None'
+[1.126s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.127s] DEBUG:colcon.colcon_core.verb:Building package 'receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lawrencehcj/calculator/src/build/receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lawrencehcj/calculator/src/install/receiver', 'merge_install': False, 'path': '/home/lawrencehcj/calculator/src/receiver', 'symlink_install': False, 'test_result_base': None}
+[1.127s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.132s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lawrencehcj/calculator/src/publisher' with build type 'ament_cmake'
+[1.132s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lawrencehcj/calculator/src/publisher'
+[1.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.152s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lawrencehcj/calculator/src/receiver' with build type 'ament_cmake'
+[1.153s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lawrencehcj/calculator/src/receiver'
+[1.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/src/publisher -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/install/publisher
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/src/receiver -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/install/receiver
+[8.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/src/receiver -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/install/receiver
+[8.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/receiver -- -j2 -l2
+[8.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/src/publisher -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/src/install/publisher
+[8.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/publisher -- -j2 -l2
+[39.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/publisher -- -j2 -l2
+[39.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/publisher
+[39.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher)
+[39.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/publisher
+[39.495s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher' for CMake module files
+[39.496s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher' for CMake config files
+[39.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher', 'cmake_prefix_path')
+[39.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.ps1'
+[39.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.dsv'
+[39.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.sh'
+[39.514s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/bin'
+[39.514s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/lib/pkgconfig/publisher.pc'
+[39.517s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/lib/python3.10/site-packages'
+[39.518s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/bin'
+[39.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.ps1'
+[39.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.dsv'
+[39.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.sh'
+[39.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.bash'
+[39.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.zsh'
+[39.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lawrencehcj/calculator/src/install/publisher/share/colcon-core/packages/publisher)
+[39.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher)
+[39.548s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher' for CMake module files
+[39.549s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher' for CMake config files
+[39.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher', 'cmake_prefix_path')
+[39.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.ps1'
+[39.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.dsv'
+[39.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/hook/cmake_prefix_path.sh'
+[39.561s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/bin'
+[39.561s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/lib/pkgconfig/publisher.pc'
+[39.562s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/lib/python3.10/site-packages'
+[39.562s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/publisher/bin'
+[39.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.ps1'
+[39.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.dsv'
+[39.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.sh'
+[39.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.bash'
+[39.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.zsh'
+[39.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lawrencehcj/calculator/src/install/publisher/share/colcon-core/packages/publisher)
+[58.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/receiver -- -j2 -l2
+[58.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/receiver
+[58.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(receiver)
+[58.209s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver' for CMake module files
+[58.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lawrencehcj/calculator/src/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/receiver
+[58.213s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver' for CMake config files
+[58.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('receiver', 'cmake_prefix_path')
+[58.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.ps1'
+[58.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.dsv'
+[58.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.sh'
+[58.218s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/bin'
+[58.219s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/lib/pkgconfig/receiver.pc'
+[58.219s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/lib/python3.10/site-packages'
+[58.220s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/bin'
+[58.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.ps1'
+[58.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.dsv'
+[58.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.sh'
+[58.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.bash'
+[58.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.zsh'
+[58.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lawrencehcj/calculator/src/install/receiver/share/colcon-core/packages/receiver)
+[58.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(receiver)
+[58.229s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver' for CMake module files
+[58.230s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver' for CMake config files
+[58.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('receiver', 'cmake_prefix_path')
+[58.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.ps1'
+[58.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.dsv'
+[58.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/hook/cmake_prefix_path.sh'
+[58.237s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/bin'
+[58.237s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/lib/pkgconfig/receiver.pc'
+[58.238s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/lib/python3.10/site-packages'
+[58.238s] Level 1:colcon.colcon_core.environment:checking '/home/lawrencehcj/calculator/src/install/receiver/bin'
+[58.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.ps1'
+[58.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.dsv'
+[58.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.sh'
+[58.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.bash'
+[58.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.zsh'
+[58.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lawrencehcj/calculator/src/install/receiver/share/colcon-core/packages/receiver)
+[58.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.250s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[58.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[58.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[58.282s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[58.343s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[58.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lawrencehcj/calculator/src/install/local_setup.ps1'
+[58.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lawrencehcj/calculator/src/install/_local_setup_util_ps1.py'
+[58.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lawrencehcj/calculator/src/install/setup.ps1'
+[58.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lawrencehcj/calculator/src/install/local_setup.sh'
+[58.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lawrencehcj/calculator/src/install/_local_setup_util_sh.py'
+[58.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lawrencehcj/calculator/src/install/setup.sh'
+[58.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lawrencehcj/calculator/src/install/local_setup.bash'
+[58.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lawrencehcj/calculator/src/install/setup.bash'
+[58.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lawrencehcj/calculator/src/install/local_setup.zsh'
+[58.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lawrencehcj/calculator/src/install/setup.zsh'

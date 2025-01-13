@@ -1,0 +1,4 @@
+[0.052s] Invoking command in '/home/lawrencehcj/calculator/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/publisher -- -j2 -l2
+[0.294s] [0mCMake Error: The source directory "/home/lawrencehcj/calculator/publisher" does not exist.
+[0.296s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.297s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1

@@ -1,0 +1,1 @@
+Invoking command in '/home/lawrencehcj/calculator/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/publisher -- -j2 -l2

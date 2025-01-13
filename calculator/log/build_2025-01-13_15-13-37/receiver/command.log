@@ -1,0 +1,6 @@
+Invoking command in '/home/lawrencehcj/calculator/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/receiver -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/install/receiver
+Invoked command in '/home/lawrencehcj/calculator/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lawrencehcj/calculator/receiver -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/calculator/install/receiver
+Invoking command in '/home/lawrencehcj/calculator/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/receiver -- -j2 -l2
+Invoked command in '/home/lawrencehcj/calculator/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/build/receiver -- -j2 -l2
+Invoking command in '/home/lawrencehcj/calculator/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/build/receiver
+Invoked command in '/home/lawrencehcj/calculator/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/build/receiver

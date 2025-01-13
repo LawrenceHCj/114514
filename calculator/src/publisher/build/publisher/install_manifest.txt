@@ -1,0 +1,16 @@
+/home/lawrencehcj/calculator/src/publisher/install/publisher/lib/publisher/publisher_node
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/package_run_dependencies/publisher
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/parent_prefix_path/publisher
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/ament_prefix_path.sh
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/ament_prefix_path.dsv
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/path.sh
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/environment/path.dsv
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.bash
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.sh
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.zsh
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/local_setup.dsv
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/package.dsv
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/ament_index/resource_index/packages/publisher
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/cmake/publisherConfig.cmake
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/cmake/publisherConfig-version.cmake
+/home/lawrencehcj/calculator/src/publisher/install/publisher/share/publisher/package.xml
