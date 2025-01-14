@@ -1,0 +1,18 @@
+[100%] Built target receiver_node
+-- Install configuration: ""
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/lib/receiver/receiver_node
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/package_run_dependencies/receiver
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/parent_prefix_path/receiver
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/path.sh
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/path.dsv
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.bash
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.sh
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.zsh
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.dsv
+-- Installing: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.dsv
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/packages/receiver
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/cmake/receiverConfig.cmake
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/cmake/receiverConfig-version.cmake
+-- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.xml

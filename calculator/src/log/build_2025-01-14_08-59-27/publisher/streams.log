@@ -1,0 +1,25 @@
+[0.059s] Invoking command in '/home/lawrencehcj/calculator/src/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/publisher -- -j2 -l2
+[0.358s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[17.602s] [100%] [32m[1mLinking CXX executable publisher_node[0m
+[18.352s] [100%] Built target publisher_node
+[18.416s] Invoked command in '/home/lawrencehcj/calculator/src/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/publisher -- -j2 -l2
+[18.422s] Invoking command in '/home/lawrencehcj/calculator/src/build/publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/publisher
+[18.477s] -- Install configuration: ""
+[18.480s] -- Installing: /home/lawrencehcj/calculator/src/install/publisher/lib/publisher/publisher_node
+[18.490s] -- Set runtime path of "/home/lawrencehcj/calculator/src/install/publisher/lib/publisher/publisher_node" to ""
+[18.492s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/ament_index/resource_index/package_run_dependencies/publisher
+[18.493s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/ament_index/resource_index/parent_prefix_path/publisher
+[18.496s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/environment/ament_prefix_path.sh
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/environment/ament_prefix_path.dsv
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/environment/path.sh
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/environment/path.dsv
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/local_setup.bash
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/local_setup.sh
+[18.497s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/local_setup.zsh
+[18.498s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/local_setup.dsv
+[18.498s] -- Installing: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.dsv
+[18.499s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/ament_index/resource_index/packages/publisher
+[18.499s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/cmake/publisherConfig.cmake
+[18.499s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/cmake/publisherConfig-version.cmake
+[18.500s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/publisher/share/publisher/package.xml
+[18.508s] Invoked command in '/home/lawrencehcj/calculator/src/build/publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/publisher

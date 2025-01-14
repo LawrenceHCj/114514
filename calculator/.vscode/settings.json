@@ -9,6 +9,7 @@
     ],
     "files.associations": {
         "functional": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "memory": "cpp"
     }
 }

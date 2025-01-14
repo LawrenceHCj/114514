@@ -1,0 +1,5 @@
+[0.146s] Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/receiver -- -j2 -l2
+[1.065s] [ 50%] [32mBuilding CXX object CMakeFiles/receiver_node.dir/src/receiver.cpp.o[0m
+[17.143s] gmake[2]: *** [CMakeFiles/receiver_node.dir/build.make:76: CMakeFiles/receiver_node.dir/src/receiver.cpp.o] 中断
+[17.143s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/receiver_node.dir/all] 中断
+[17.143s] gmake: *** [Makefile:146: all] 中断

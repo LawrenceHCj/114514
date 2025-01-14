@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_node.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

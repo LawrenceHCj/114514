@@ -1,0 +1,25 @@
+[0.115s] Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/receiver -- -j2 -l2
+[0.791s] [ 50%] [32mBuilding CXX object CMakeFiles/receiver_node.dir/src/receiver.cpp.o[0m
+[75.421s] [100%] [32m[1mLinking CXX executable receiver_node[0m
+[77.456s] [100%] Built target receiver_node
+[77.519s] Invoked command in '/home/lawrencehcj/calculator/src/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lawrencehcj/calculator/src/build/receiver -- -j2 -l2
+[77.527s] Invoking command in '/home/lawrencehcj/calculator/src/build/receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/receiver
+[77.579s] -- Install configuration: ""
+[77.580s] -- Installing: /home/lawrencehcj/calculator/src/install/receiver/lib/receiver/receiver_node
+[77.605s] -- Set runtime path of "/home/lawrencehcj/calculator/src/install/receiver/lib/receiver/receiver_node" to ""
+[77.605s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/package_run_dependencies/receiver
+[77.605s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/parent_prefix_path/receiver
+[77.605s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/ament_prefix_path.sh
+[77.605s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/ament_prefix_path.dsv
+[77.606s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/path.sh
+[77.606s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/environment/path.dsv
+[77.606s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.bash
+[77.611s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.sh
+[77.611s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.zsh
+[77.611s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/local_setup.dsv
+[77.611s] -- Installing: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.dsv
+[77.612s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/ament_index/resource_index/packages/receiver
+[77.612s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/cmake/receiverConfig.cmake
+[77.612s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/cmake/receiverConfig-version.cmake
+[77.612s] -- Up-to-date: /home/lawrencehcj/calculator/src/install/receiver/share/receiver/package.xml
+[77.623s] Invoked command in '/home/lawrencehcj/calculator/src/build/receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lawrencehcj/calculator/src/build/receiver
